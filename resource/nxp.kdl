@@ -1,0 +1,14 @@
+package name="my_project" version="0.1.0"
+
+dependencies {
+    http-client version="1.2"
+}
+
+devdependencies {
+    sdk version="0.1.0" features="true" devargs="only"
+}
+
+scripts {
+    start command="echo 'Running start script...'"
+    build command="echo 'Running build script...'"
+}

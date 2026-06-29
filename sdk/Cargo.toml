@@ -1,0 +1,15 @@
+[package]
+name = "nexus-sdk"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "nexus_sdk"
+crate-type = ["staticlib"]
+path = "src/lib.rs"
+
+[dependencies]
+
+[features]
+default = ["std"]
+std = []
