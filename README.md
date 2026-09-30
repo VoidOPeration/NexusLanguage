@@ -16,10 +16,10 @@
 * Modern Syntax: C-style syntax with modern features like defer, slice, and records.
 * Safety: Contracts, strict typing, and optional checked arithmetic (+?).
 
-## uick Start
+## Quick Start
 1. Installation
 
-* Build from source using Cargo:
+* Build from source using Cargo(Main select):
 
 ```bash
 cargo build --release
@@ -43,8 +43,8 @@ public int main() {
 
 * Native: 
 ```bash
-nxc main.nx -o app
-./app
+nxc main.nx -o main
+./main
 ```
 
 * Bytecode: 
@@ -55,9 +55,9 @@ nxvm out.nxb
  
 ## Documentation 
 
-[Language Syntax](./syntax.md)
-[SDK Reference](./sdk.md)
-[Toolchain Guide](./toolchain.md) 
+[Language Syntax](./docs/syntax.md)
+[SDK Reference](./docs/sdk.md) - non active
+[Toolchain Guide](./docs/toolchain.md) - non active
      
 
 # License
