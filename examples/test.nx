@@ -1,8 +1,0 @@
-package main;
-
-using < sdk::system >;
-
-public int main(string[] args) {
-    system.out.println("Hi");
-    return 0;
-}
