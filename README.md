@@ -31,10 +31,10 @@ The binaries will be in target/release/ (nxc, nxvm, nxp).
 
 ```cs
 package main;
-using <sdk::io>;
+using < sdk::system >;
 
 public int main() {
-    system.out.println("Hello, Nexus!");
+    system.println("Hello, Nexus!");
     return 0;
 }
 ```
