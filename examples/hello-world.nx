@@ -1,0 +1,8 @@
+package main;
+
+using < sdk::system >;
+
+public int main(slice<char> args) {
+    system.println("Hello world");
+    return 0;
+}

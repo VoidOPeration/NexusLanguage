@@ -1,0 +1,19 @@
+package main;
+
+using < sdk::system >;
+
+public int main(slice<char> args) {
+    int num_one = 5;
+    int num_two = 10;
+    int result_plus = num_one + num_two;
+    int result_minus = num_one - num_two;
+    int result_star = num_one * num_two;
+    double result_slash = num_one / num_two;
+
+    system.fprintln("Result: %n + %n = %n", num_one, num_two, result_plus);
+    system.fprintln("Result: %n - %n = %n", num_one, num_two, result_minus);
+    system.fprintln("Result: %n * %n = %n", num_one, num_two, result_star);
+    system.fprintln("Result: %n / %n = %n", num_one, num_two, result_slash);
+
+    return 0;
+}
