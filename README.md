@@ -55,4 +55,4 @@ nxc main.nx -o main
      
 
 # License
-MIT
+MIT by VoidOP_
