@@ -3,18 +3,18 @@
 <version : 0.1.0>
 <licence : MIT>
 
-* Nexus is a procedural, system-level programming language focused on performance, freedom, and a "C-like" syntax without the historical baggage. It features manual memory management, compile-time execution (comptime), and a hybrid architecture (Native via LLVM & Bytecode VM).
+* **Nexus** is a procedural-oriatation, ***Resource-orientation***, **Object-oriantation(data-oriantation)**, imperative,  low-level programming language focused on performance, freedom, 'n', a "C-like" syntax without the historical baggage. It features manual memory management, compile-time execution (comptime), and Native compilation via LLVM.
 
 ## Features
 
-* Dual Backend: Compile to ultra-fast Native binaries (via LLVM) or portable Bytecode (.nxb).
+* One Backend: Compile to ultra-fast Native binaries (via LLVM).
 * Toolchain: 
 - nxc: The Compiler.
-- nxvm: The Virtual Machine.
-- nxp: Package Manager & Build System.
-* Memory: Full control. new, delete, defer, and custom Arenas.
-* Modern Syntax: C-style syntax with modern features like defer, slice, and records.
-* Safety: Contracts, strict typing, and optional checked arithmetic (+?).
+- anvil: The build system.
+- forge: Package Manager.
+* Memory: Full control. *new*, *delete*, *defer*, and custom Arenas.
+* Modern Syntax: C-style syntax with modern features like *defer*, *slice*, and *records*.
+* Safety: Contracts, strict static typing.
 
 ## Quick Start
 1. Installation
@@ -47,12 +47,6 @@ nxc main.nx -o main
 ./main
 ```
 
-* Bytecode: 
-```bash
-nxc --nxb main.nx
-nxvm out.nxb
-```
- 
 ## Documentation 
 
 [Language Syntax](./docs/syntax.md)
