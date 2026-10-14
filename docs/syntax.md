@@ -10,7 +10,7 @@ package main;
 using <sdk::system>;
 
 public int main() {
-    system.out.println("hello world");
+    system.println("hello world");
     return 0;
 }
 ```
@@ -34,9 +34,9 @@ public int main() {
 package main;
 
 int proccess(int size) {
-    ptr<int> data = new int[&size];
+    ptr<int>[&size] data;
 
-    defer delete data;
+    defer data;
 
     data[0] = 100;
 
